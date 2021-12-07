@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remove a course</title>
+</head>
+<body>
+    <h1>Remove a Course!</h1>
+    <p>Please make a selection below:</p>
+    <form onsubmit="return remove(event);">
+        <table id="courseTable">
+            <tr>
+            <th>ID</th>
+            <th>Course Name</th>
+            <th>Course Number</th>
+            <th>Course Description</th>
+            </tr>
+        </table>
+        <br>
+        <input type="text" name="sel" id="sel"> <br>
+        <input type="submit" name="submit" id="submit" value="Submit">
+    </form>
+</body>
+<script src="remCommand.js" charset="utf-8"></script>
+</html>

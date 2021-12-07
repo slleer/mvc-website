@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add a course</title>
+</head>
+<body>
+    <h1>Add a Course!</h1>
+    <form name='addF' onsubmit="return addC(event);">
+        <label for="name">Course Name</label>
+        <input type="text" id="name" name="name"> <br>
+        <label for="num">Course Number</label>
+        <input type="text" id="num" name="num"> <br>
+        <label for="desc">Course Description</label>
+        <input type="text" id="desc" name="desc"> <br>
+        <input type="submit" name="submit" id="submit" value="add course">
+    </form>
+</body>
+<script src="add.js" charset="utf-8"></script>
+</html>
